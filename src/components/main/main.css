@@ -1,0 +1,92 @@
+.new-message{
+    height: 15rem;
+    min-width: 35rem;
+    border: 1px solid #e2e1e1;
+    font-family: sans-serif;
+    background-color: white;
+}
+.tweet-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e1e1;
+    align-items: center;
+}
+.tweet-header .title{
+    padding: .1rem 1rem;
+    line-height: 1rem;
+}
+.tweet-header .title h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.latest-icon img{
+    width: 25px;
+    padding: 1rem;
+}
+.tweet-body{
+    display: flex;
+}
+.message-box{
+    margin-top: .5rem;
+    padding: 1rem 0;
+}
+.message-box input{
+    border: none;
+    font-size: 24px;
+    outline: none;
+    color: #444444;
+}
+.view-desc{
+    display: flex;
+    object-fit: contain;
+}
+.view-desc img{
+    width: 16px;
+    padding: 3px 0;
+}
+hr{
+    width: 90%;
+    margin-left: 9%;
+    border: none;
+    border-bottom: .1rem solid #e2e1e1;
+}
+.view-desc span{
+    font-size: 14px;
+    font-weight: 700;
+    padding: .5rem;
+    color:dodgerblue;
+}
+.tweet-button{
+    display: flex;
+    justify-content: space-between;
+}
+.tweet-icons{
+    display: flex;
+    gap: 1rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+.tweet-icons img{
+    width: 22px;
+    height: 20px;
+    margin: .1rem;
+    color: blue;
+}
+.new-tweet-button{
+    padding: .2rem 1rem;
+}
+.new-tweet-button button{
+    font-family: sans-serif;
+    padding: .8rem  1.8rem;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #1da1f2;
+    font-size: 16px;
+    font-weight: 600;
+}
+.user-tweet-img img{
+    width: 45px;
+    padding: 1rem;
+}

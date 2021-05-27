@@ -1,0 +1,40 @@
+.news-part {
+  font-family: sans-serif, Arial;
+  padding: 20px;
+}
+.card {
+  width: 300px;
+  padding: 5px 20px;
+  border: 1px solid #d6d6d6;
+  overflow-wrap: break-word;
+  text-align: inherit;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  white-space: pre-wrap;
+  border-bottom: none;
+}
+
+a > span {
+  color: rgb(27, 149, 224);
+}
+.searchBox {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 4px 12px;
+  align-items: center;
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+.txtBox {
+  border: none;
+  padding-left: 12px;
+}
+.txtBox:focus {
+  outline: none;
+}
