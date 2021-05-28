@@ -51,8 +51,8 @@ const data = [
 
 function Sidebar() {
   return (
-    
-      <div className="sidebar">
+      <div className="main-block">  
+        <div className="sidebar">
         
         <Link logo={<TwitterLogo />} />
         {
@@ -62,11 +62,14 @@ function Sidebar() {
         }
         <TweetButton />
         
+      </div>
         
         <div>
           <UserInfo name="Yash Desai" userid="@yashd902" logo={<Profile />} />
         </div>
+
       </div>
+      
   );
 }
 

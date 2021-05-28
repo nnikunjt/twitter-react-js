@@ -5,7 +5,7 @@ import UserLogo from '../../assets/yashSir.jpg'
 function UserInfo(props) {
     return(
         <div className="nav-link userInfo hover-effect">
-          <div className="logo">
+          <div className="user-logo">
             <img className="userlogo" src={UserLogo} alt="User Logo"></img>
           </div>
           <div className="info">
