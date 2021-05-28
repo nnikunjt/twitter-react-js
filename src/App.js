@@ -4,14 +4,13 @@ import Header from './components/sidebar/Header'
 import Sidebar from './components/sidebar/Sidebar'
 import Twitter from './components/Twitter'
 
+import './App.css';
+import Twitter from "./components/Twitter"
 function App() {
   return (
-    <>
-
-    <Twitter />
-     {/* <Sidebar />
-     <MessageBox /> */}
-    </>
+   <div>
+     <Twitter/>
+    </div>
   );
 }
 
