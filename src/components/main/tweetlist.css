@@ -1,0 +1,8 @@
+.tweet-list{
+    font-family: sans-serif;
+    text-align:center;
+    border: 1px solid #e2e1e1;
+    height: 100vh;
+    margin-top: .5rem;
+    background-color: white;
+}

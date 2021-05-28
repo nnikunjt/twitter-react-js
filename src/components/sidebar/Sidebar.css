@@ -1,0 +1,82 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    /* background: rebeccapurple; */
+    height: 100vh;
+    width: 100%;
+    margin: 0 1rem;
+}    
+.nav-link{
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    transition-property: background-color, box-shadow;
+    cursor: pointer;
+}
+.hover-effect:hover{
+    background-color: rgba(29,161,242,0.1);
+    border-radius: 9999px;
+}
+.logo{
+    padding:0 1rem ;
+    width: 1.5rem;
+    /* background-color: blue; */
+    height: 24px;
+    color: rgba(29,161,242,1.00);
+}
+.link{
+    width: 40%;
+    /* background: cornsilk; */
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(15, 20, 25);
+}
+
+
+.tweetBtn{
+    margin-left: 2rem;
+    align-items:center;
+    background-color: rgb(29, 161, 242);
+    color:#ffffff;
+    width: 80%;
+    min-height: 48px;
+    font-family:Times New Roman;
+    font-size:15px;
+    padding:0 32px;
+    font-weight:700;
+    line-height:20px;
+    text-align:center;
+    border-radius:9999px;
+    border:none;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+    transition-property: background-color, box-shadow;
+}
+
+.userInfo{
+    position: absolute;
+    bottom: 0;
+    left: 14rem;
+    width: 15%;
+}
+
+.userlogo{
+    padding: 0;
+    width: 2rem;
+    /* background-color: blue; */
+    height: 2rem;
+}
+
+.info > p{
+    margin: 0;
+}
+
+.more{
+    margin-left: 2rem;
+}
