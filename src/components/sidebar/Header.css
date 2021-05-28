@@ -1,0 +1,150 @@
+.sidebar{
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+}
+
+.Header {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+  margin-left: 42px;
+  border: 1px solid red;
+}
+.DivLogo {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1da1f2;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+  padding: 1px;
+}
+.TwitterLogo {
+  width: 40px;
+  height: 40px;
+  border-color: #1da1f2;
+  color: #1da1f2;
+  display: inline;
+  fill: #1da1f2;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+.Div {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+
+  align-items: center;
+}
+.Home,
+.Explore,
+.Notification,
+.Message,
+.Bookmark,
+.List,
+.Profile,
+.More {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 9999px;
+  border: 1px solid red;
+}
+.Logo {
+  width: 28px;
+  height: 28px;
+  display: inline;
+
+  padding: 1px 1px 2px 2px;
+}
+.Text {
+  color: black;
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 28px;
+}
+a {
+  text-decoration: none;
+  color: #1da1f2;
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px;
+}
+.DivBtn {
+  width: 226px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 8px 28px 0px white;
+  padding: 0px 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.TweetBtn {
+  width: 146px;
+  height: 46px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #1da1f2;
+  padding: 14px 59px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.Account {
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  margin-bottom: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+   margin-left: 42px;
+  border: 1px solid green;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 10px;
+    border: 1px solid blue;
+}
+.Edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid red;
+  
+}
+.ProfileMore{
+    width: 28px;
+    height: 28px;
+    display: inline;
+    border: 1px solid green;
+    padding: 1px 1px 2px 2px;
+}
