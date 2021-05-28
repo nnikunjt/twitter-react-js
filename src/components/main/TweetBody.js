@@ -7,7 +7,7 @@ function TweetBody() {
         <img src={require("../../assets/user_logo.jpg").default} />
       </div>
       <div>
-        <div className="message-box">
+        <div className="tweet-message">
           <input type="text" placeholder="What's happening?" />
         </div>
         <div className="view-desc">

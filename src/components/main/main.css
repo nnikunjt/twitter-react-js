@@ -5,12 +5,21 @@
     font-family: sans-serif;
     background-color: white;
 }
+.fix{
+    position: fixed;
+    height: 3.5rem;
+    min-width: 35rem;
+    margin-bottom: 3.5rem;
+    top:0;
+}
 .tweet-header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #e2e1e1;
     align-items: center;
+    background-color: white;
 }
+
 .tweet-header .title{
     padding: .1rem 1rem;
     line-height: 1rem;
@@ -25,12 +34,13 @@
 }
 .tweet-body{
     display: flex;
+    padding-top: 3.5rem;
 }
-.message-box{
+.tweet-message{
     margin-top: .5rem;
     padding: 1rem 0;
 }
-.message-box input{
+.tweet-message input{
     border: none;
     font-size: 24px;
     outline: none;
