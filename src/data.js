@@ -18,6 +18,16 @@ const tweet_list = [
     likes: 10,
     comments: 19,
   },
+  {
+    title:
+      "Writing a technical article in the simplest possible language is a thing I like.",
+    author: "World and Science",
+    time: "2m",
+    username: "WorldAndScience",
+    retweets: 4,
+    likes: 10,
+    comments: 19,
+  },
 ];
 
 export default tweet_list
