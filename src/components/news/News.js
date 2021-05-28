@@ -15,7 +15,7 @@ function Cards(){
             title:"Sport",
             desc:"",
             hastag:"#khansirpatna",
-            img:"..."
+            img:""
 
             
 
@@ -24,7 +24,7 @@ function Cards(){
             title:"Covid-19",
             desc:"COVID-19 vaccination for 18-45 age group is now open",
             hastag:"#Covid19",
-            img:"..."
+            img:""
         },
         {
             title:"Weather",
@@ -37,7 +37,7 @@ function Cards(){
             title:"Degital",
             desc:"Private Policy regarding....",
             hastag:"#Facebook#Twitter#IndianGoverment",
-            img:"..."
+            img:""
 
         },
     ]

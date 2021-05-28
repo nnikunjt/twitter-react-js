@@ -1,7 +1,6 @@
 import Sidebar from './sidebar/Sidebar'
 import Main from './main/Main'
 import News from './news/News'
-
 import './twitter.css'
 
 function Twiiter() {
