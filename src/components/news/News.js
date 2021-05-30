@@ -80,7 +80,7 @@ function Card(props){
                 </div>
            </div>
             <div>
-             <a className="title">Treding with <span>{props.hastag}</span></a>
+             <a className="trending">Trending with <span>{props.hastag}</span></a>
             </div>
         </div>
     )

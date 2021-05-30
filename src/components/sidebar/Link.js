@@ -4,7 +4,7 @@ function Link(props) {
           <div className="logo">
             {props.logo}
           </div>
-          <div className="link">{props.name}</div>
+          <div className={'link ' + (props.name != 'Home' ? '' : 'active')}>{props.name}</div>
         </div>
     )
 }

@@ -29,9 +29,9 @@ const tweet_list = [
     time: "2m15h",
     username: "iefSoBog",
     profile_pic :"uncle.jpg",
-    retweets: 4,
-    likes: 10,
-    comments: 19,
+    retweets: 8,
+    likes: 25,
+    comments: 6,
     check:false,
     liked:false
   },
