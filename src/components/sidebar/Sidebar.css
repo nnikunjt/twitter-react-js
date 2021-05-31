@@ -90,14 +90,23 @@
   display: none;
 }
 
+.Searchbtn {
+  display: none;
+}
+
 @media screen and (max-width: 1080px) {
   .main-block {
     margin-right: 0;
+    padding: 0 1rem;
   }
   .link,
   .info,
   .more {
     display: none;
+  }
+
+  .nav-link {
+    padding: 12px 0;
   }
   .userlogo {
     margin-right: 1rem;
@@ -107,12 +116,16 @@
     height: 1.5em;
     padding-left: 16px;
     padding-right: 36px;
+    justify-content: center;
   }
   .tweetBtn > span {
     display: none;
   }
   .post-tweet {
     padding: 0;
+    display: block;
+  }
+  .Searchbtn {
     display: block;
   }
 }

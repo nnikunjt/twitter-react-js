@@ -8,6 +8,8 @@ import {ReactComponent as Profile} from "../../assets/Profile.svg";
 import {ReactComponent as More} from "../../assets/More.svg";
 import {ReactComponent as Explore} from "../../assets/Explore.svg";
 import {ReactComponent as Message} from "../../assets/Message.svg";
+import {ReactComponent as Search} from "../../assets/search.svg";
+
 
 
 import Link from './Link'
@@ -18,6 +20,10 @@ const data = [
   {
     name:"Home",
     logo:<Home/>
+  },
+  {
+    name:"Search",
+    logo:<Search />
   },
   {
     name:"Explore",

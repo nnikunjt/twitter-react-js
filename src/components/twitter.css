@@ -6,3 +6,9 @@
 .main{
     background-color: rgb(235, 238, 240);
 }
+
+@media screen and (max-width:1080px) {
+    .news-part{
+        display: none;
+    }
+}
