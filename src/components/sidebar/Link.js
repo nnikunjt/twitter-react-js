@@ -1,6 +1,6 @@
 function Link(props) {
     return(
-        <div className={'nav-link ' + (props.name == null ? '' : 'hover-effect') }>
+        <div className={'nav-link ' + (props.name == null ? '' : 'hover-effect')+" "+(props.name=="Search" ? "Searchbtn" : "") }>
           <div className="logo">
             {props.logo}
           </div>
