@@ -73,14 +73,16 @@
 .userlogo{
     padding:0 .5rem;
     width: 2rem;
-    /* background-color: blue; */
     height: 2rem;
 }
 
 .info > p{
     margin: 0;
 }
-
+.user-id{
+    font-size:14px;
+    color:rgb(128, 128, 128);
+}
 .more{
     margin-left: 2rem;
 }
