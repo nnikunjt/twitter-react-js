@@ -1,119 +1,124 @@
-.main-block{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    height: 100vh;
-    margin-right: 1rem;
-    font-family: sans-serif;
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin-right: 1rem;
+  font-family: sans-serif;
 }
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    /* background: rebeccapurple; */
-    align-items: center;
-
-}    
-.nav-link{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    transition-property: background-color, box-shadow;
-    cursor: pointer;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* background: rebeccapurple; */
+  align-items: center;
 }
-.hover-effect:hover{
-    background-color: rgba(29,161,242,0.1);
-    border-radius: 9999px;
+.nav-link {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  transition-property: background-color, box-shadow;
+  cursor: pointer;
 }
-.logo{
-    padding:0 1rem ;
-    width: 1.5rem;
-    height: 24px;
-    color: rgba(29,161,242,1.00);
+.hover-effect:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
 }
-.link{
-    width: 50%;
-    /* background: cornsilk; */
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: 500;
-    color: rgb(15, 20, 25);
+.logo {
+  padding: 0 1rem;
+  width: 1.5rem;
+  height: 24px;
+  color: rgba(29, 161, 242, 1);
 }
-.active{
-    font-weight: 700;
-    color: rgb(15, 20, 25);
+.link {
+  width: 50%;
+  /* background: cornsilk; */
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: rgb(15, 20, 25);
 }
-
-.tweetBtn{
-    align-items:center;
-    background-color: rgb(29, 161, 242);
-    color:#ffffff;
-    width: 80%;
-    min-height: 48px;
-    font-size:16px;
-    font-family: sans-serif;
-    padding:0 32px;
-    font-weight:700;
-    line-height:20px;
-    text-align:center;
-    border-radius:9999px;
-    border:none;
-    transition-duration: 0.2s;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
-    transition-property: background-color, box-shadow;
+.active {
+  font-weight: 700;
+  color: rgb(15, 20, 25);
 }
 
-.userInfo{
-    width: 100%;
+.tweetBtn {
+  align-items: center;
+  background-color: rgb(29, 161, 242);
+  color: #ffffff;
+  width: 80%;
+  min-height: 48px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 0 32px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 9999px;
+  border: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+  transition-property: background-color, box-shadow;
 }
 
-.userlogo{
-    padding:0 .5rem;
-    width: 2rem;
-    height: 2rem;
+.userInfo {
+  width: 100%;
 }
 
-.info > p{
-    margin: 0;
-}
-.user-id{
-    font-size:14px;
-    color:rgb(128, 128, 128);
-}
-.more{
-    margin-left: 2rem;
+.userlogo {
+  padding: 0 0.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
-.post-tweet{
+.info > p {
+  margin: 0;
+}
+.user-id {
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
+.more {
+  margin-left: 2rem;
+}
+
+.post-tweet {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .main-block {
+    margin-right: 0;
+  }
+  .link,
+  .info,
+  .more {
     display: none;
+  }
+  .userlogo {
+    margin-right: 1rem;
+  }
+  .tweetBtn {
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 16px;
+    padding-right: 36px;
+  }
+  .tweetBtn > span {
+    display: none;
+  }
+  .post-tweet {
+    padding: 0;
+    display: block;
+  }
 }
 
-
-@media screen and (max-width:1080px) {
-    .main-block{
-        margin-right: 0;
-    }
-    .link, .info, .more{
-        display: none;
-    }
-    .userlogo{
-        margin-right: 1rem;
-    }
-    .tweetBtn{
-        width: 1.5em;
-        height: 1.5em;
-        padding-left: 16px;
-        padding-right: 36px;
-    }
-    .tweetBtn > span {
-        display: none;
-    }
-    .post-tweet{
-        padding: 0;
-        display: block;
-    }
+@media screen and (max-width: 690px) {
+  .main-block {
+    display: none;
+  }
 }
-

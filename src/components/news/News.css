@@ -96,3 +96,8 @@ a > span {
 .txtBox:focus {
   outline: none;
 }
+@media screen and (max-width: 440px) {
+  .news-part {
+    display: none;
+  }
+}
