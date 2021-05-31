@@ -20,7 +20,7 @@ function Logo() {
 function Home() {
   return (
     <>
-      <img src={HomeLogo} className="Logo" />
+      <img src={HomeLogo} className="Logo Active" />
       <a href="#" className="Text">
         Home
       </a>

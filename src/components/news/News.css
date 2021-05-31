@@ -1,17 +1,18 @@
 .news-part {
   font-family: sans-serif, Arial;
-  padding: 20px;
+  padding: 0 20px;
 }
 .news {
   /* border: 2px solid red; */
   border-radius: 16px;
   background-color: rgb(247, 249, 250);
+  padding-bottom: 10px;
 }
 h2 {
   padding: 10px 20px;
   margin-bottom: 0;
 }
-.title {
+.trending {
   color: rgb(91, 112, 131);
   font-size: 13px;
   line-height: 16px;
@@ -72,13 +73,15 @@ a > span {
   color: rgb(27, 149, 224);
 }
 .searchBox {
-  height: 30px;
+  height: 20px;
   width: 300px;
   display: flex;
-  border: 1px solid gray;
   border-radius: 20px;
-  padding: 4px 12px;
+  margin-top: 10px;
+  padding: 10px 12px;
   align-items: center;
+  background-color: #eee;
+  word-spacing: 1rem;
 }
 .search-icon {
   height: 16px;
@@ -87,6 +90,8 @@ a > span {
 .txtBox {
   border: none;
   padding-left: 12px;
+  background: transparent;
+  font-size: 16px;
 }
 .txtBox:focus {
   outline: none;
