@@ -16,9 +16,6 @@ function Cards(){
             desc:"",
             hastag:"#khansirpatna",
             img:""
-
-            
-
         },
         {
             title:"Covid-19",
