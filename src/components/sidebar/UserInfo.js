@@ -10,7 +10,7 @@ function UserInfo(props) {
           </div>
           <div className="info">
               <p>{props.name}</p>
-              <p>{props.userid}</p>
+              <p  className="user-id">{props.userid}</p>
           </div>
           <div className="logo more">
             <More /> 
