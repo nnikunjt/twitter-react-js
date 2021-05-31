@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     /* background: rebeccapurple; */
+    align-items: center;
 
 }    
 .nav-link{
@@ -51,7 +52,6 @@
     color:#ffffff;
     width: 80%;
     min-height: 48px;
-    font-family:Times New Roman;
     font-size:16px;
     font-family: sans-serif;
     padding:0 32px;
@@ -86,3 +86,34 @@
 .more{
     margin-left: 2rem;
 }
+
+.post-tweet{
+    display: none;
+}
+
+
+@media screen and (max-width:1080px) {
+    .main-block{
+        margin-right: 0;
+    }
+    .link, .info, .more{
+        display: none;
+    }
+    .userlogo{
+        margin-right: 1rem;
+    }
+    .tweetBtn{
+        width: 1.5em;
+        height: 1.5em;
+        padding-left: 16px;
+        padding-right: 36px;
+    }
+    .tweetBtn > span {
+        display: none;
+    }
+    .post-tweet{
+        padding: 0;
+        display: block;
+    }
+}
+

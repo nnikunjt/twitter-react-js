@@ -5,7 +5,7 @@ import {ReactComponent as Expand} from '../../assets/Expand.svg'
 
 function MessageBox() {
   return (
-    <div className="message-box">
+    <div className="messageBox">
       <div className="message">Message</div>
       <div className="icons">
         <div>
