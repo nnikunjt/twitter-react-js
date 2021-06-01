@@ -28,15 +28,17 @@
   display: flex;
 }
 
-.icon {
-  color: rgba(62, 124, 163, 1);
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: text-bottom;
-  padding: 0 0.5rem;
+.icon{
+    color: rgba(62, 124, 163,1.00);
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: text-bottom;
+    padding: 0 .5rem;
 }
-@media screen and (max-width: 690px) {
-  .messageBox {
-    display: none;
-  }
+
+
+@media screen and (max-width:1080px) {
+    .messageBox{
+        display: none;
+    }
 }

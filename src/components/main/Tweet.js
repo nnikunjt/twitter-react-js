@@ -52,8 +52,7 @@ function Tweet(props) {
                     </div>
                     <div ><span> {props.data.likes}</span></div> 
                     </>
-                  }
-                    
+                  }  
                      
                 </div>
                 <div className="share">
