@@ -55,8 +55,29 @@ const data = [
   },
 ]
 
+const mobileLink = [
+  {
+    name:"Home",
+    logo:<Home/>
+  },
+  {
+    name:"Search",
+    logo:<Search />
+  },
+  {
+    name:"Notification",
+    logo:<Notification/>
+  },
+  {
+    name:"Message",
+    logo:<Message/>
+  },
+]
+
+
 function Sidebar() {
   return (
+    <>
       <div className="main-block">  
         <div className="sidebar">
         
@@ -66,6 +87,8 @@ function Sidebar() {
             <Link  name={d.name} logo={d.logo} />
           ))
         }
+        {/* Mobile Tab  */}
+        
         <TweetButton />
         
       </div>
@@ -75,6 +98,14 @@ function Sidebar() {
         </div>
 
       </div>
+      <div className="mobile-tabs">
+          {
+            mobileLink.map((d)=> (
+              <Link  name={d.name} logo={d.logo} />
+            ))
+          }
+        </div>
+    </>
       
   );
 }

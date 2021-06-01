@@ -34,3 +34,10 @@
     vertical-align: text-bottom;
     padding: 0 .5rem;
 }
+
+
+@media screen and (max-width:1080px) {
+    .messageBox{
+        display: none;
+    }
+}

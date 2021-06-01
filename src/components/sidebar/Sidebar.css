@@ -43,7 +43,8 @@
 }
 .active{
     font-weight: 700;
-    color: rgb(15, 20, 25);
+    color: rgb(29, 161, 242);
+    fill: rgb(29, 161, 242);
 }
 
 .tweetBtn{
@@ -95,6 +96,10 @@
     display: none;
 }
 
+.mobile-tabs{
+    display: none;
+}
+
 @media screen and (max-width:1080px) {
     .main-block{
         margin-right: 0;
@@ -125,7 +130,34 @@
         display: block;
     }
     .Searchbtn{
-        display: block;
+        display: flex;
     }
 }
 
+@media screen and (max-width:690px) {
+    .main-block{
+        display: none;
+    }
+
+    .mobile-tabs{
+        z-index: 12;
+        position: fixed;
+        background: white;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(235, 238, 240);
+    }
+    .logo{
+        width: 2rem;
+        height: 2rem;
+        fill: rgb(91, 112, 131);
+    }
+    .active{
+        fill: rgb(29, 161, 242);
+    }
+    
+}
