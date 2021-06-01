@@ -4,6 +4,8 @@ import News from './news/News'
 import Message from './message/MessageBox'
 import './twitter.css'
 
+import TweetButton from '../components/sidebar/TweetButton'
+
 function Twitter() {
     return(
         <div className="container">
@@ -11,6 +13,9 @@ function Twitter() {
             <Main />
             <News />
             <Message />
+            <div className="tweetButton">
+             <TweetButton/>
+            </div>
         </div>
     )
 }

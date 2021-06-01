@@ -91,7 +91,7 @@ function Sidebar() {
         
         <TweetButton />
         
-      </div>
+       </div>
         
         <div>
           <UserInfo name="Yash Desai" userid="@yashd902" logo={<Profile />} />
@@ -99,12 +99,14 @@ function Sidebar() {
 
       </div>
       <div className="mobile-tabs">
-          {
-            mobileLink.map((d)=> (
-              <Link  name={d.name} logo={d.logo} />
-            ))
-          }
-        </div>
+            
+        {
+          mobileLink.map((d)=> (
+            <Link  name={d.name} logo={d.logo} />
+          ))
+        }
+       </div>       
+       
     </>
       
   );
