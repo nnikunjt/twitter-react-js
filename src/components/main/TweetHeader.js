@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as TopTweet } from "../../assets/Top-tweet.svg";
 
 function TweetHeader() {
   return (
@@ -8,7 +9,8 @@ function TweetHeader() {
           <h2>Home</h2>
         </div>
         <div className="latest-icon">
-          <img class="icon" src={require("../../assets/temp.svg").default} />
+          {/* <img class="icon" src={require("../../assets/Top-tweet.svg").default} /> */}
+          <TopTweet  className="icon"/>
         </div>
       </div>
     </div>
