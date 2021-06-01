@@ -101,18 +101,18 @@ hr {
   width: 45px;
   padding: 1rem;
 }
-@media screen and (max-width: 690px) {
+@media only screen and (max-width: 690px) and (min-width: 350px) {
   .new-message {
     display: none;
   }
 }
-@media screen and (max-width:1080px) {
-    .new-message{
-        min-width: 32rem;
-    }
-    .fix{
-        position: fixed;
-        min-width: 32rem;
-        top:0
-    }
+@media only screen and (max-width: 1080px) {
+  .new-message {
+    min-width: 32rem;
+  }
+  .fix {
+    position: fixed;
+    min-width: 32rem;
+    top: 0;
+  }
 }
