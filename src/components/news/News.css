@@ -74,7 +74,6 @@ a > span {
 }
 .searchBox {
   height: 20px;
-  width: 300px;
   display: flex;
   border-radius: 20px;
   margin-top: 10px;
@@ -96,8 +95,34 @@ a > span {
 .txtBox:focus {
   outline: none;
 }
+
 @media only screen and (max-width: 690px) and (min-width: 350px) {
   .news-part {
     display: none;
+    padding: 0 20px;
+  }
+  .disable{
+    display: block;
+  }
+  .news-part-2{
+    min-width:100%;
+  }
+  .news-part-2 .desc{
+    width: 800px;
+  }
+  .news-part-2 .search-box{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .news-part {
+    display: none;
+    padding: 0 20px;
+  }
+  .disable{
+    display: unset;
+  }
+  .news-part-2{
+    width:100%;
   }
 }

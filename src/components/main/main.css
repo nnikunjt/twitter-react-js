@@ -7,7 +7,7 @@
 }
 .fix {
   position: fixed;
-  min-width: 36rem;
+  min-width: auto;
   top: 0;
 }
 
@@ -112,7 +112,7 @@ hr {
   }
   .fix {
     position: fixed;
-    min-width: 32rem;
+    min-width: 36rem;
     top: 0;
   }
 }

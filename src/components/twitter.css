@@ -1,18 +1,25 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 0 4rem;
 }
 .main {
   background-color: rgb(235, 238, 240);
 }
-
+.disable{
+    display: none;
+}
 @media screen and (max-width: 1080px) {
   .news-part {
     display: none;
   }
 }
 @media only screen and (max-width: 690px) and (min-width: 350px) {
+  .news-part{
+    display: none;
+  }
+  .container{
+    padding: .1rem;
+  }
   .tweetButton {
     position: fixed;
     right: 1em;
@@ -26,5 +33,8 @@
   .logo {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .disable{
+      display: block;
   }
 }

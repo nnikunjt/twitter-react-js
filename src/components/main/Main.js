@@ -10,7 +10,6 @@ function Main() {
         <div className="main">
             <NewMessage />
             <TweetList />
-
         </div>
     )
 }

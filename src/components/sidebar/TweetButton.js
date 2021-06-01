@@ -1,9 +1,9 @@
 import { ReactComponent as Post } from "../../assets/PostTweet.svg";
 
-function TweetButton() {
+function TweetButton(props) {
     return(
         <div className="nav-link">
-            <button className="tweetBtn">
+            <button className={ props.disable ? "tweetBtn disable" : " tweetBtn "}>
                 <div className="post-tweet logo">
                     <Post />
                 </div>

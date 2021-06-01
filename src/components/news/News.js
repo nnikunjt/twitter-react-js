@@ -40,7 +40,7 @@ function Cards(){
     ]
     return(
         <div className="news">
-            <h2>What's happing</h2>
+            <h2>What's happening </h2>
 
             {
                 details.map((e, i)=>(
@@ -83,13 +83,14 @@ function Card(props){
     )
 }
 
-function News() {
+function News(props) {
     return(
-        <div className="news-part">
-            <SearchBox/>
-            <Cards/>
-               
-       </div>
+        <div >
+            <div className={ props.disable ? " news-part-2" : "news-part"}>
+                <SearchBox/>
+                <Cards/>    
+            </div>
+        </div>
     )
 }
 
