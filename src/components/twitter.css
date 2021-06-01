@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
 }
+.tweetButton{
+  display: none;
+}
 .main {
   background-color: rgb(235, 238, 240);
 }
@@ -21,9 +24,11 @@
     padding: .1rem;
   }
   .tweetButton {
+    display: block;
     position: fixed;
     right: 1em;
     bottom: 4em;
+
   }
   .tweetBtn {
     justify-content: center;

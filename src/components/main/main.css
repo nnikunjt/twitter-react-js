@@ -7,7 +7,7 @@
 }
 .fix {
   position: fixed;
-  min-width: auto;
+  min-width: 37rem;
   top: 0;
 }
 
