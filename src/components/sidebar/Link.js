@@ -6,7 +6,7 @@ function Link(props) {
         <div className={'nav-link ' + (props.name === null ? '' : 'hover-effect')+" "+(props.name==="Search" ? "Searchbtn" : "") }>
           {/* <a href="#"> */}
           <a href={"/" + props.name} className={"logo " + 
-          ( (((window.location.pathname === '/Home' ||window.location.pathname === '/') && props.name ==="Home" ) || (window.location.pathname === '/Search' && props.name ==="Search"))  ? 'active' : '')}>
+          ( (((window.location.pathname === '/') && props.name ==="Home" ) || (window.location.pathname == "/" + props.name ))  ? 'active' : '')}>
             {props.logo} 
           </a>
           <div className={'link ' + (props.name != 'Home' ? '' : 'active')}>{props.name}</div>
