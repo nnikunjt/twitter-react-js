@@ -1,8 +1,12 @@
+import { useLocation} from 'react-router-dom'
+
 function Link(props) {
-    return(
+
+  return(
         <div className={'nav-link ' + (props.name === null ? '' : 'hover-effect')+" "+(props.name==="Search" ? "Searchbtn" : "") }>
           {/* <a href="#"> */}
-          <a href={"/" + props.name} className={"logo " + (props.name != 'Home' ? '' : 'active')}>
+          <a href={"/" + props.name} className={"logo " + 
+          (props.name == 'Home' || props.name == 'Search'  ? 'active' : ' deactive')}>
             {props.logo}
           </a>
           <div className={'link ' + (props.name != 'Home' ? '' : 'active')}>{props.name}</div>
@@ -12,3 +16,4 @@ function Link(props) {
 }
 
 export default Link;
+

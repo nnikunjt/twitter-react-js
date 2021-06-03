@@ -1,4 +1,5 @@
 import "./Sidebar.css";
+
 import {ReactComponent as TwitterLogo} from "../../assets/twitter.svg";
 import {ReactComponent as Home} from "../../assets/Home.svg";
 import {ReactComponent as Notification} from "../../assets/Notification.svg";
@@ -10,12 +11,10 @@ import {ReactComponent as Explore} from "../../assets/Explore.svg";
 import {ReactComponent as Message} from "../../assets/Message.svg";
 import {ReactComponent as Search} from "../../assets/search.svg";
 
-
-
 import Link from './Link'
 import TweetButton from './TweetButton'
 import UserInfo from './UserInfo' 
-
+import Bottom from "./Bottom";
 const data = [
   {
     name:"Home",
@@ -55,24 +54,6 @@ const data = [
   },
 ]
 
-const mobileLink = [
-  {
-    name:"Home",
-    logo:<Home/>
-  },
-  {
-    name:"Search",
-    logo:<Search />
-  },
-  {
-    name:"Notification",
-    logo:<Notification/>
-  },
-  {
-    name:"Message",
-    logo:<Message/>
-  },
-]
 
 
 function Sidebar() {
@@ -98,14 +79,7 @@ function Sidebar() {
         </div>
 
       </div>
-      <div className="mobile-tabs">
-            
-        {
-          mobileLink.map((d)=> (
-            <Link  name={d.name} logo={d.logo} />
-          ))
-        }
-       </div>       
+      <Bottom />     
        
     </>
       
