@@ -40,7 +40,9 @@ function Cards(){
     ]
     return(
         <div className="news">
-            <h2>What's happening </h2>
+           <div>
+             <h2>What's happening </h2>
+           </div>
 
             {
                 details.map((e, i)=>(
@@ -53,7 +55,9 @@ function Cards(){
                     />
                 ))
             }
-            <span className="show-more">Show more</span>
+            <div className="show-more">
+                <span>Show more</span>
+            </div>
         </div>
     )
 }
