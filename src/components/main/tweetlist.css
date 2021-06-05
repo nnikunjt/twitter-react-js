@@ -29,6 +29,7 @@
 }
 .tweet-content {
   padding: 0.8rem 0;
+ padding-right: .5rem;
   font-weight: normal;
   color: rgb(0, 0, 0, 0.9);
   text-align: left;
@@ -56,6 +57,7 @@
   justify-content: end;
   align-items: center ;
   text-align: center;
+  margin-left: -10px;
 }
 .tweet-bottom-icon > div {
   display: flex;
@@ -72,6 +74,9 @@
 .tweet-bottom-icon img {
   width: 16px;
   margin-top: 0.2rem;
+}
+.retweet-icon{
+  margin-top: 3px;
 }
 .comment,
 .retweet,
@@ -106,10 +111,15 @@
     font-size: 12px;
     font-weight: lighter;
   }
+ 
 }
 @media only screen and (max-width: 690px) and (min-width: 360px) {
   .profile_name span{
     font-size: 14px;
+  }
+  .username span,
+  .time span {
+    font-size: 11px;
   }
   .user-tweet-msg {
     font-size: 11px;
